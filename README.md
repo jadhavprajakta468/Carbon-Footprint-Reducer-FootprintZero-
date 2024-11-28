@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Sustainability Footprint Tracker  FootprintZero
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Problem Statement
+The Sustainability Footprint Tracker is a web-based platform designed to help individuals, organizations, and businesses monitor and reduce their carbon footprint. By calculating carbon emissions from various activities, the application offers a comprehensive approach to sustainability.
 
-## Available Scripts
+## Abstract
+The Sustainability Footprint Tracker is a web-based platform aimed at assisting users in tracking and reducing their carbon emissions. It uses reliable data sources to provide personalized recommendations for adopting eco-friendly practices. Features include interactive elements such as quizzes, educational campaigns, and an AI-powered chatbot to guide users in reducing their carbon footprint. The platform empowers users to make informed, sustainable choices, thereby contributing to global environmental conservation efforts.
 
-In the project directory, you can run:
+## Technology Stack
 
-### `npm start`
+### Frontend
+- **React**: Manages the interactive user interface, allowing dynamic and responsive components for tracking and dashboard views.
+- **React-chatbot-kit**: Adds an AI-powered chatbot for guiding users through carbon footprint reduction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Backend
+- **Spring Boot**: Manages server-side logic, including handling API requests and business operations like user authentication and data processing.
+- **Hibernate**: Facilitates communication between the application and the MySQL database, providing efficient data management and retrieval.
+- **MySQL**: Stores user data, tracking metrics, and sustainability information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Chatbot Interface
+![Chatbot](https://github.com/user-attachments/assets/cf3b3679-2bce-4808-85ca-58e55dbfabc4) ![Chatbot](https://github.com/user-attachments/assets/de2a2171-a09d-4deb-8a19-299c2814b265)
 
-### `npm run build`
+### Signup Page
+![Signup](https://github.com/user-attachments/assets/3cf6ee1b-ad87-4a35-b17d-9ac9d20ebab0)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tips Section
+![Tips](https://github.com/user-attachments/assets/1d44925d-7d48-45e4-b2db-7c820c24735e)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Campaigns Section
+![Campaigns](https://github.com/user-attachments/assets/8b4bfa07-d437-4ff2-9999-3ddc55ca5e7e)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Quiz Section
+![Quiz 1](https://github.com/user-attachments/assets/8517d41d-327a-4167-ad2d-3510c40ed1d2) ![Quiz 2](https://github.com/user-attachments/assets/9eae0aa2-3c77-4956-a2d6-b85e4a253f18)
 
-### `npm run eject`
+### Carbon Calculator
+![Calculator](https://github.com/user-attachments/assets/c38cabfc-5903-4284-9451-bc069add4748)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### User Profile
+![Profile](https://github.com/user-attachments/assets/993a04ee-2d0d-4154-b668-4a64d46e48a1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
