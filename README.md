@@ -30,7 +30,7 @@ The Sustainability Footprint Tracker is a web-based platform aimed at assisting 
 ![Tips](https://github.com/user-attachments/assets/1d44925d-7d48-45e4-b2db-7c820c24735e)
 
 ### Campaigns Section
-![Campaigns](https://github.com/user-attachments/assets/8b4bfa07-d437-4ff2-9999-3ddc55ca5e7e)
+![screencapture-localhost-3000-campaigns-2024-11-28-22_43_03](https://github.com/user-attachments/assets/2c7f831e-f8ab-4c7e-b60d-97ae5580e24a)
 
 ### Quiz Section
 ![Quiz 1](https://github.com/user-attachments/assets/8517d41d-327a-4167-ad2d-3510c40ed1d2) ![Quiz 2](https://github.com/user-attachments/assets/9eae0aa2-3c77-4956-a2d6-b85e4a253f18)
