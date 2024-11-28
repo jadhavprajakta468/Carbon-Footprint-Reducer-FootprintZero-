@@ -20,8 +20,11 @@ The Sustainability Footprint Tracker is a web-based platform aimed at assisting 
 
 ## Screenshots
 
+### HomePage
+![Uploading screencapture-localhost-3000-2024-11-28-22_40_06.png…]()
+
 ### Chatbot Interface
-![Chatbot](https://github.com/user-attachments/assets/cf3b3679-2bce-4808-85ca-58e55dbfabc4) ![Chatbot](https://github.com/user-attachments/assets/de2a2171-a09d-4deb-8a19-299c2814b265)
+![Chatbot](https://github.com/user-attachments/assets/cf3b3679-2bce-4808-85ca-58e55dbfabc4) 
 
 ### Signup Page
 ![Signup](https://github.com/user-attachments/assets/3cf6ee1b-ad87-4a35-b17d-9ac9d20ebab0)
