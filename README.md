@@ -1,4 +1,4 @@
-# Sustainability Footprint Tracker  FootprintZero
+# Sustainability Footprint Tracker - FootprintZero
 
 ## Problem Statement
 The Sustainability Footprint Tracker is a web-based platform designed to help individuals, organizations, and businesses monitor and reduce their carbon footprint. By calculating carbon emissions from various activities, the application offers a comprehensive approach to sustainability.
