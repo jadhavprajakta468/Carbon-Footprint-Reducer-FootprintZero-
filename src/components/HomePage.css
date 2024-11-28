@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentona:wght@700&display=swap');
+
+:root {
+  --dark-green: #386641;
+  --medium-green: #6A994E;
+  --lime-green: #A7C957;
+  --beige: #F2E8CF;
+  --red-accent: #BC4749;
+  --light-green: #D6E8D2; /* Light green for background */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--beige);
+  color: var(--dark-green);
+}
+
+header {
+  background-color: var(--light-green); /* Light green for the navigation background */
+  padding: 0.5rem 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.logo {
+  width: 100px; /* Smaller logo size */
+}
+
+.site-name {
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--dark-green); /* Same color as logo */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: var(--dark-green);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold; /* Bold navigation items */
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: var(--medium-green); /* Hover effect for links */
+}
+
+.intro-image {
+  background-color: var(--light-green); /* Light green background */
+  text-align: center;
+  padding: 1rem; /* Padding around the image container */
+}
+
+.intro-pic {
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Constrain max width for larger screens */
+  height: 300px; /* Set a reduced height */
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  border-radius: 20px; /* Rounded corners */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  color: var(--dark-green);
+  margin: 0;
+}
+
+.content h2 {
+  margin-top: 15px;
+  color: var(--dark-green);
+}
+.content p {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+}
+
+.btn-primary {
+  background-color: var(--medium-green);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--lime-green);
+}
+.image img {
+  width: 450px; /* Set a specific width */
+  height: 250px; /* Set a specific height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 15px;
+}
+
+
+footer {
+  background-color: var(--dark-green);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .content, .image {
+    max-width: 100%;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-bottom: 0.5rem;
+  }
+}
+/* Contact Us Section */
+.contact-us {
+  padding: 2rem 5%;
+  text-align: center;
+  background-color: var(--light-green);
+}
+
+.contact-us h2 {
+  color: var(--dark-green);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-us p {
+  font-size: 1.2rem;
+  color: var(--dark-green);
+  margin-bottom: 1rem;
+}
+.social-links {
+  margin-top: 1.5rem;
+}
+
+.social-link {
+  color: var(--dark-green); /* Use the same text color as other elements */
+  text-decoration: none; /* Remove default link styling */
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Footer Section */
+footer {
+  background-color: var(--dark-green);
+  color: white;
+  text-align: center;
+  padding: 1rem; /* Reduced height of the footer */
+}
+
+footer p {
+  margin: 0;
+}

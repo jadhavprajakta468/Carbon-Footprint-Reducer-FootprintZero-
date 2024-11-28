@@ -1,0 +1,118 @@
+:root {
+    --beige: #f5f5dc;
+    --dark-green: #006400;
+    --medium-green: #32a852;
+    --lime-green: #7cfc00;
+    --red-accent: #ff6347;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background:var(--beige);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: var(--beige);
+  }
+  
+  /* Title */
+  .profile-container h1 {
+    font-size: 36px;
+    color: var(--dark-green);
+    font-weight: bold;
+    padding-bottom: 1rem;
+  }
+  
+  /* Content Layout */
+  .profile-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .profile-content > div {
+    flex: 1;
+    background: #fcfcda;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* List Headings */
+  .profile-content h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Score List Styles */
+.score-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .score-item {
+    background: var(--medium-green);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  .score-item strong {
+    color: #333;
+  }
+  
+  /* Carbon Footprint List Styles */
+  .carbon-footprint-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .carbon-footprint-item {
+    background: var(--medium-green);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #cde7f9;
+  }
+  
+  .carbon-footprint-item strong {
+    color: #333;
+  }
+  
+  /* Error Messages */
+  .error-message {
+    color: red;
+    font-size: 1em;
+    margin-top: 10px;
+  }  
+  
+  /* Loading and Error Messages */
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .profile-content {
+      flex-direction: column;
+    }
+  
+    .profile-content > div {
+      margin-bottom: 20px;
+    }
+  }

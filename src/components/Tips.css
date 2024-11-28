@@ -1,0 +1,92 @@
+:root {
+    --dark-green: #386641;
+    --medium-green: #6A994E;
+    --lime-green: #A7C957;
+    --beige: #F2E8CF;
+    --red-accent: #BC4749;
+    --light-green: #D6E8D2;
+}
+
+.tip-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: var(--dark-green);
+    color: var(--beige);
+    line-height: 1.6;
+    padding: 20px;
+    
+}
+
+.tip-head {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--dark-green);
+}
+
+.tip-head h1 {
+    font-size: 36px;
+    color: var(--beige);
+    font-weight: bold;
+}
+
+.tip-head p {
+    font-size: 18px;
+    color: var(--lime-green);
+}
+
+.tip-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color:var(--dark-green);
+    padding-bottom: 60px;
+}
+
+.tip-box {
+    background-color: var(--light-green);
+    border: 2px solid var(--medium-green);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.tip-logo {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.tip-box h2 {
+    font-size: 22px;
+    color: var(--dark-green);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tip-box ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 20px; /* Add space for custom dots */
+}
+
+.tip-box ul li {
+    position: relative; /* To position the dot */
+    margin-bottom: 10px; /* Adds space between items */
+    font-size: 16px;
+    color: var(--medium-green);
+}
+
+.tip-box ul li::before {
+    content: "•"; /* Custom dot */
+    position: absolute; /* Absolute position for custom dot */
+    left: -20px; /* Moves the dot to the left of the text */
+    top: 0;
+    color: var(--red-accent); /* Color of the dot */
+    font-size: 24px; /* Size of the dot */
+}

@@ -1,0 +1,19 @@
+footer {
+
+    background-color: var(--dark-green);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1rem; /* Reduced height of the footer */
+
+}
+
+ 
+
+footer p {
+
+    margin: 0;
+
+}

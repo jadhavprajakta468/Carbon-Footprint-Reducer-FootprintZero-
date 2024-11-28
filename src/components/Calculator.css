@@ -1,0 +1,98 @@
+:root {
+    --beige: #f5f5dc;
+    --dark-green: #006400;
+    --medium-green: #32a852;
+    --lime-green: #7cfc00;
+    --red-accent: #ff6347;
+}
+
+.calc-body {
+    background-color: #D6E8D2;
+}
+
+.calculator-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: var(--beige);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.App-header {
+    background-color: var(--dark-green);
+    color: var(--beige);
+    width: 99%;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 100px;
+    text-shadow: 1px 1px var(--red-accent);
+}
+
+.calculator-form {
+    text-align: center; /* Center content inside the form */
+}
+
+.calculator-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: var(--dark-green);
+    font-size: 1.2rem; /* Increase label text size */
+}
+
+
+.calculator-form input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--medium-green);
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--medium-green);
+    color: var(--beige);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Add margin for spacing */
+    display: inline-block; /* Keep button inline */
+}
+
+button:hover {
+    background-color: var(--lime-green);
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result h2 {
+    color: var(--dark-green);
+}
+
+.result span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-style: italic;
+}

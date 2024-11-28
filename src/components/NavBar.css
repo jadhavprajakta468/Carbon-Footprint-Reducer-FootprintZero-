@@ -1,0 +1,59 @@
+:root {
+    --dark-green: #386641;
+    --medium-green: #6A994E;
+    --lime-green: #A7C957;
+    --beige: #F2E8CF;
+    --red-accent: #BC4749;
+    --light-green: #D6E8D2; /* Light green for background */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--beige);
+    color: var(--dark-green);
+  }
+  
+  header {
+    background-color: var(--light-green); /* Light green for the navigation background */
+    padding: 0.5rem 0;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  }
+  
+  .logo {
+    width: 100px; /* Smaller logo size */
+  }
+  
+  .site-name {
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--dark-green); /* Same color as logo */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: var(--dark-green);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold; /* Bold navigation items */
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: var(--medium-green); /* Hover effect for links */
+  }
