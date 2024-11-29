@@ -10,7 +10,7 @@ The Sustainability Footprint Tracker is a web-based platform aimed at assisting 
 
 ### Frontend
 - **React**: Manages the interactive user interface, allowing dynamic and responsive components for tracking and dashboard views.
-- **React-chatbot-kit**: Adds an AI-powered chatbot for guiding users through carbon footprint reduction.
+- **React-chatbot-kit**: Adds a chatbot for guiding users through carbon footprint reduction.
 
 ### Backend
 - **Spring Boot**: Manages server-side logic, including handling API requests and business operations like user authentication and data processing.
